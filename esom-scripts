@@ -1,0 +1,3 @@
+#!/bin/bash
+
+for f in $(ls ~/ssd/mats/*.sorted); do nice ./esomrnd -r winter -H -S 4 -b $f.rgb.bm -u $f.rgb.umx -w $f.rgb.wts -p $f.map.png; done
